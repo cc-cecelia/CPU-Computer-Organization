@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 94: Assignment to <arg fmt="%s" index="1">RA</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 257: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 269: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 329: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 208: Assignment to <arg fmt="%s" index="1">Winstr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 633: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 640: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 644: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 650: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 652: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 656: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 663: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 669: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 682: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 690: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 694: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 698: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="81" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 556: <arg fmt="%s" index="1">rsUse</arg> may be used uninitialized in static subprogram <arg fmt="%s" index="2">decode</arg> and create unintended latch behavior
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="81" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 557: <arg fmt="%s" index="1">rtUse</arg> may be used uninitialized in static subprogram <arg fmt="%s" index="2">decode</arg> and create unintended latch behavior
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="81" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 558: <arg fmt="%s" index="1">new</arg> may be used uninitialized in static subprogram <arg fmt="%s" index="2">decode</arg> and create unintended latch behavior
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 364: Assignment to <arg fmt="%s" index="1">DisMTC0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 208: Signal <arg fmt="%s" index="1">Dstop</arg> in unit <arg fmt="%s" index="2">CONTROLLER</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 91: Net &lt;<arg fmt="%s" index="1">EisMTC0</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 30: Empty module &lt;<arg fmt="%s" index="1">CONTROLLER</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 133: Assignment to <arg fmt="%s" index="1">CP0_W_For_DM_WD</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 147: Assignment to <arg fmt="%s" index="1">DM_Wr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CMP.v" Line 30: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CMP.v" Line 31: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/GRF.v" Line 33: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">register</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/GRF.v" Line 21: Empty module &lt;<arg fmt="%s" index="1">GRF</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/MULTDIV.v" Line 96: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1511" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/M_ExcDetect.v" Line 29: Mix of blocking and non-blocking assignments to variable &lt;<arg fmt="%s" index="1">isExc</arg>&gt; is not a recommended coding practice.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/M_ExcDetect.v" Line 22: Empty module &lt;<arg fmt="%s" index="1">M_ExcDetect</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 65: Assignment to <arg fmt="%s" index="1">IP</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 108: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="592" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 112: Mixed blocking and non-blocking assignments on <arg fmt="%s" index="1">Cause</arg> is not supported
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 22: Empty module &lt;<arg fmt="%s" index="1">CP0</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 392: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TOP.v" Line 81: Assignment to <arg fmt="%s" index="1">DM_Wr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TOP.v" Line 85: Assignment to <arg fmt="%s" index="1">DIV_RD</arg> ignored, since the identifier is never used
+</msg>
+
+</messages>
+

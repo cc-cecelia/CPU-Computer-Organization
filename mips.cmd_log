@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.xst" -ofn "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.syr" 

@@ -1,0 +1,111 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/co-eda/Desktop/Verilog/P7/P7_L0_2022/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/co-eda/Desktop/Verilog/P7/P7_L0_2022/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Reading design: CPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regW.v" into library work
+Parsing module <regW>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regM.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <regM>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regE.v" into library work
+Parsing module <regE>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regD.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <regD>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/NPC.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <NPC>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/M_ExcDetect.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <M_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/MULTDIV.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <MULTDIV>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/IF_ExcDetect.v" into library work
+Parsing module <IF_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/E_ExcDetect.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <E_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/EXT.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <EXT>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/D_ExcDetect.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <D_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/DATA_EXTEND.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <DATA_EXTEND>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/DATA_BYTE.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <DATA_BYTE>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <CP0>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" into library work
+Parsing verilog file "constants.v" included at line 29.
+Parsing module <CONTROLLER>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CMP.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <CMP>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/alu.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <ALU>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <CPU>.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.85 secs
+ 
+--> 
+
+
+Total memory usage is 289316 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
