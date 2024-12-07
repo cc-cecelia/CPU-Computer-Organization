@@ -1,0 +1,300 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.01 secs
+ 
+--> 
+Reading design: mips.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "mips.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "mips"
+Output Format                      : NGC
+Target Device                      : xc6slx100-2-fgg676
+
+---- Source Options
+Top Module Name                    : mips
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regW.v" into library work
+Parsing module <regW>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regM.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <regM>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regE.v" into library work
+Parsing module <regE>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regD.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <regD>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/NPC.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <NPC>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/M_ExcDetect.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <M_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/MULTDIV.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <MULTDIV>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/IF_ExcDetect.v" into library work
+Parsing module <IF_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/GRF.v" into library work
+Parsing module <GRF>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/E_ExcDetect.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <E_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/EXT.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <EXT>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/D_ExcDetect.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <D_ExcDetect>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/DATA_EXTEND.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <DATA_EXTEND>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/DATA_BYTE.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <DATA_BYTE>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <CP0>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" into library work
+Parsing verilog file "constants.v" included at line 29.
+Parsing module <CONTROLLER>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CMP.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <CMP>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/alu.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <ALU>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TIMER.v" into library work
+Parsing module <TC>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" into library work
+Parsing verilog file "constants.v" included at line 21.
+Parsing module <CPU>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/BRIDGE.v" into library work
+Parsing module <BRIDGE>.
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TOP.v" into library work
+Parsing module <mips>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <mips>.
+
+Elaborating module <CPU>.
+
+Elaborating module <NPC>.
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 94: Assignment to RA ignored, since the identifier is never used
+
+Elaborating module <IF_ExcDetect>.
+
+Elaborating module <CONTROLLER>.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 257: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 269: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 329: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 208: Assignment to Winstr ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 633: Result of 32-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 640: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 644: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 650: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 652: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 656: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 663: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 669: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 682: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 690: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 694: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 698: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:81 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 556: rsUse may be used uninitialized in static subprogram decode and create unintended latch behavior
+WARNING:HDLCompiler:81 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 557: rtUse may be used uninitialized in static subprogram decode and create unintended latch behavior
+WARNING:HDLCompiler:81 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 558: new may be used uninitialized in static subprogram decode and create unintended latch behavior
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 364: Assignment to DisMTC0 ignored, since the identifier is never used
+ERROR:HDLCompiler:1401 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 208: Signal Dstop in unit CONTROLLER is connected to following multiple drivers:
+Driver 0: output signal Dstop of instance OR Gate (GND_11_o_Dinstr[31]_OR_306).
+Driver 1: output signal Dstop of instance Flip-Flop (Dstop).
+Driver 0: output signal Dread[2] of instance Multiplexer (PWR_5_o_GND_11_o_mux_310).
+Driver 1: output signal Dread[2] of instance Flip-flop (Dread).
+Driver 0: output signal Dread[1] of instance Multiplexer (PWR_5_o_GND_11_o_mux_310).
+Driver 1: output signal Dread[1] of instance Flip-flop (Dread).
+Driver 0: output signal Dread[0] of instance Multiplexer (PWR_5_o_GND_11_o_mux_310).
+Driver 1: output signal Dread[0] of instance Flip-flop (Dread).
+Driver 0: output signal Dwrite[2] of instance Multiplexer (PWR_5_o_GND_11_o_mux_311).
+Driver 1: output signal Dwrite[2] of instance Flip-flop (Dwrite).
+Driver 0: output signal Dwrite[1] of instance Multiplexer (PWR_5_o_GND_11_o_mux_311).
+Driver 1: output signal Dwrite[1] of instance Flip-flop (Dwrite).
+Driver 0: output signal Dwrite[0] of instance Multiplexer (PWR_5_o_GND_11_o_mux_311).
+Driver 1: output signal Dwrite[0] of instance Flip-flop (Dwrite).
+WARNING:HDLCompiler:634 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 91: Net <EisMTC0> does not have a driver.
+Driver 0: output signal DloadType[1] of instance Multiplexer (GND_11_o_GND_11_o_mux_250).
+Driver 1: output signal DloadType[1] of instance Flip-flop (DloadType).
+Driver 0: output signal DloadType[0] of instance Multiplexer (GND_11_o_GND_11_o_mux_250).
+Driver 1: output signal DloadType[0] of instance Flip-flop (DloadType).
+Driver 0: output signal DstoreType[1] of instance Multiplexer (GND_11_o_GND_11_o_mux_247).
+Driver 1: output signal DstoreType[1] of instance Flip-flop (DstoreType).
+Driver 0: output signal DstoreType[0] of instance Multiplexer (GND_11_o_GND_11_o_mux_247).
+Driver 1: output signal DstoreType[0] of instance Flip-flop (DstoreType).
+Driver 0: output signal DRF_Wr of instance OR Gate (Dinstr[31]_Dinstr[31]_OR_145).
+Driver 1: output signal DRF_Wr of instance Flip-Flop (DRF_Wr).
+Driver 0: output signal DDM_Wr of instance OR Gate (Dinstr[31]_Dinstr[31]_OR_171).
+Driver 1: output signal DDM_Wr of instance Flip-Flop (DDM_Wr).
+Driver 0: output signal DCP0_Wr of instance AND Gate (Dinstr[31]_Dinstr[25]_AND_18).
+Driver 1: output signal DCP0_Wr of instance Flip-Flop (DCP0_Wr).
+Module CONTROLLER remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" Line 30: Empty module <CONTROLLER> remains a black box.
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 133: Assignment to CP0_W_For_DM_WD ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 147: Assignment to DM_Wr ignored, since the identifier is never used
+
+Elaborating module <regD>.
+
+Elaborating module <D_ExcDetect>.
+
+Elaborating module <CMP>.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CMP.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CMP.v" Line 31: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <GRF>.
+ERROR:HDLCompiler:1511 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/GRF.v" Line 33: Mix of blocking and non-blocking assignments to variable <register> is not a recommended coding practice.
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1511"
+Module GRF remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/GRF.v" Line 21: Empty module <GRF> remains a black box.
+
+Elaborating module <EXT>.
+
+Elaborating module <regE>.
+
+Elaborating module <ALU>.
+
+Elaborating module <MULTDIV>.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/MULTDIV.v" Line 96: Result of 32-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <E_ExcDetect>.
+
+Elaborating module <regM>.
+
+Elaborating module <M_ExcDetect>.
+ERROR:HDLCompiler:1511 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/M_ExcDetect.v" Line 29: Mix of blocking and non-blocking assignments to variable <isExc> is not a recommended coding practice.
+INFO - You can change the severity of this error message to warning using switch -change_error_to_warning "HDLCompiler:1511"
+Module M_ExcDetect remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/M_ExcDetect.v" Line 22: Empty module <M_ExcDetect> remains a black box.
+
+Elaborating module <CP0>.
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 65: Assignment to IP ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 108: Result of 32-bit expression is truncated to fit in 5-bit target.
+ERROR:HDLCompiler:592 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 112: Mixed blocking and non-blocking assignments on Cause is not supported
+Module CP0 remains a blackbox, due to errors in its contents
+WARNING:HDLCompiler:1499 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" Line 22: Empty module <CP0> remains a black box.
+WARNING:HDLCompiler:413 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" Line 392: Result of 32-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <DATA_BYTE>.
+
+Elaborating module <DATA_EXTEND>.
+
+Elaborating module <regW>.
+
+Elaborating module <BRIDGE>.
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TOP.v" Line 81: Assignment to DM_Wr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TOP.v" Line 85: Assignment to DIV_RD ignored, since the identifier is never used
+
+Elaborating module <TC>.
+--> 
+
+
+Total memory usage is 345888 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :   36 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

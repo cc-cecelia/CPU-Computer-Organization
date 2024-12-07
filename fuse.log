@@ -1,0 +1,63 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips_txt_int_isim_beh.exe -prj /home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips_txt_int_beh.prj work.mips_txt_int work.glbl 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regW.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regM.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regE.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/regD.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/NPC.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/M_ExcDetect.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/MULTDIV.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/IF_ExcDetect.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/GRF.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/E_ExcDetect.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/EXT.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/D_ExcDetect.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/DATA_EXTEND.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/DATA_BYTE.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CP0.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/controller.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/CMP.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/alu.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TIMER.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/BRIDGE.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TOP.v" into library work
+Analyzing Verilog file "/home/co-eda/Desktop/Verilog/P7/P7_L0_2022/TB_mips_int.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 83512 KB
+Fuse CPU Usage: 900 ms
+Compiling module NPC
+Compiling module IF_ExcDetect
+Compiling module CONTROLLER
+Compiling module regD
+Compiling module D_ExcDetect
+Compiling module CMP
+Compiling module GRF
+Compiling module EXT
+Compiling module regE
+Compiling module ALU
+Compiling module MULTDIV
+Compiling module E_ExcDetect
+Compiling module regM
+Compiling module M_ExcDetect
+Compiling module CP0
+Compiling module DATA_BYTE
+Compiling module DATA_EXTEND
+Compiling module regW
+Compiling module CPU
+Compiling module BRIDGE
+Compiling module TC
+Compiling module mips
+Compiling module mips_txt_int
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 24 Verilog Units
+Built simulation executable /home/co-eda/Desktop/Verilog/P7/P7_L0_2022/mips_txt_int_isim_beh.exe
+Fuse Memory Usage: 98740 KB
+Fuse CPU Usage: 1040 ms
+GCC CPU Usage: 3910 ms
